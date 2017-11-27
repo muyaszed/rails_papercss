@@ -9,6 +9,17 @@
   </head>
 
   <body>
+  	<div class="paper container">
+	  <div class="row">
+	    <div class="col-4 col">
+	    	<%= render "layouts/nav_links_for_auth" %> 
+	    </div>
+	    <div class="col-8 col">
+	    	<%= render "layouts/navigation_links" %> 
+	    </div>
+	  </div>
+	</div>
+  	
     <%= yield %>
   </body>
 </html>
